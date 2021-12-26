@@ -13,6 +13,7 @@ class WebApplication extends Application
 
     public function __construct(WebParamManager $params, WebRouter $router)
     {
+        parent::__construct();
         $this->router = $router;
         $this->params = $params;
     }

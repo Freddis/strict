@@ -13,6 +13,7 @@ class CliApplication extends Application
 
     public function __construct(CliParamManager $params, CliRouter $router)
     {
+        parent::__construct();
         $this->router = $router;
         $this->params = $params;
     }
