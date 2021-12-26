@@ -1,0 +1,22 @@
+{
+    "name": "freddis/strict",
+    "description": "An experiment to see how good can PHP behave if stict types and heavy object oriented approaches are being used",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Strict\\": "src/",
+            "StrictTest\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sarychev Alexei",
+            "email": "asarychev@home-studio.pro"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "freddis/inferred": "dev-main",
+        "phpunit/phpunit": "^9"
+    }
+}
